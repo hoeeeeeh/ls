@@ -8,10 +8,14 @@
       html{ background-color:#03070f;}
       
       img {display:block; cursor: pointer; width:100%; max-width:540px; margin:0 auto;}
+      #disqus_thread {
+        visibility: visible;
+      }
     </style>
    <script>
     function toggleImg() {
       document.getElementById("pop").src = "givingthing_just_give.jpeg";
+      document.getElementById("disqus_thread").style.visibility = "visible"
     }
   </script>
   <script id="dsq-count-scr" src="//kamen-3.disqus.com/count.js" async></script>
